@@ -1,0 +1,240 @@
+body{
+	font-size: 14px;
+	font-family: "airal","微软雅黑";
+	background-color: #f4f4f4;
+}
+
+a{
+	color: #666;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+input{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline:none;
+}
+
+.inner_c{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+
+/*header*/
+
+.header{
+	width: 100%;
+	height: 40px;
+	background-color: #454545;
+	overflow: hidden;
+}
+
+.header .logo{
+	float: left;
+	height: 40px;
+	width: 124px;
+	background: url(../images/logo.png) no-repeat 0 -40px;
+}
+.header .logo:hover{
+	background: url(../images/logo.png) no-repeat 0 0 #fff;
+}
+.header a{
+	float: left;
+	padding: 0 14px;
+	line-height: 40px;
+	color: #fff;
+}
+.header .nav li:hover a{
+	background-color: #333;
+}
+.header .nav li{
+	float: left;
+	padding: 0 5px;
+}
+.header .nav .lis a{
+	background: url(../images/arrow02.png) no-repeat right center;
+}
+.header .nav .lis:hover{
+	background-color: #fff;
+}
+.header .nav .lis:hover a{
+	color: #333;
+	background: url(../images/arrow02-2.png) no-repeat right center #fff;
+}
+.header .nav{
+	float: left;
+}
+.header form{
+	float: left;
+	margin: 6px 0 0 20px;
+}
+.header form .txt{
+	float: left;
+	width: 175px;
+	height: 28px;
+	border-radius: 3px 0 0 3px;
+	background-color: #f6f6f6;
+	font-size: 12px;
+	padding-left: 10px;
+	color: #999;
+}
+.header form .btn{
+	float: left;
+	width: 30px;
+	height: 28px;
+	border-radius: 0 3px 3px 0;
+	background: url(../images/search1.png) no-repeat 0 0 #f6f6f6;
+}
+.header .logout{
+	float: right;
+}
+
+
+
+
+
+/*顶部 search*/
+.search{
+	width: 100%;
+	height: 104px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.search .search_c{
+	/*padding-top: 32px;*/
+}
+.search .search_c .logo_2{
+	float: left;
+}
+.search .search_c .logo_2 a{
+	display: block;
+	width: 210px;
+	height: 104px;                 
+	background: url(../images/logo-03402.png) no-repeat 0 32px;
+	font-size: 0;
+}
+.search .search_c .seach_bor{
+	position: relative;
+	float: left;
+	width: 748px;
+	height: 38px;   
+	border: 1px solid #57bc4c;
+	margin-top: 32px;
+}
+.search .search_c .seach_bor .sea_lis{
+	position: absolute;
+	top: 5px;
+	right: 120px;
+}
+.search .search_c .seach_bor .sea_lis a{
+	display: block;
+	float: left;
+	padding: 4px 6px;
+	margin-right: 10px;
+	background-color: #eeeeee;
+}
+.search .search_c .seach_bor .sea_lis a:hover{
+	color: #57bc4c;
+}
+
+
+.search .search_c .seach_bor .seach_txt,.search .search_c .seach_bor .seach_btn{
+	float: left;
+	outline:none;
+}
+
+.search .search_c .seach_bor .seach_txt{
+	padding-left: 40px;
+	width: 606px;
+	height: 36px;
+	background: url(../images/search.png) no-repeat;
+	border: 1px solid #57bc4c;
+	font-size: 14px;
+	color: #57bc4c;
+}
+.search .search_c .seach_bor .seach_btn{
+	width: 100px;
+	height: 38px;
+	background-color: #57bc4c;
+	font-size: 16px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+.search .search_c .collect{
+	float: right;
+	display: block;
+	width:112px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #e8e8e8;
+	padding-left: 26px;
+	margin-top: 32px;
+	background: url(../images/star.png) no-repeat 8px 12px #fff;
+}
+.search .search_c .collect span{
+	font-size: 14px;
+	padding-right: 18px;
+	background: url(../images/arrow01.png) no-repeat right center;
+}
+
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	overflow:hidden;
+	background-color: #454545;
+}
+.footer .footer_top{
+	padding: 25px 0;
+	border-bottom: 1px dashed #666;
+	overflow: hidden;
+}
+.footer .footer_top dl{
+	width: 220px;
+	float: left;
+}
+.footer .footer_top dt{
+	color: #ddd;
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+.footer .footer_top dl a{
+	color: #888;
+	line-height: 24px;
+}
+.footer .footer_top dl a:hover{
+	color: #57bc4c;
+}
+.footer .footer_c p{
+	line-height: 48px;
+	text-align: center;
+	color: #888;
+}
+
+.footer .footer_c .foot_last{
+	float: right;
+	margin-right: 100px;
+}
+.footer .footer_c .foot_last dd{
+	font-size: 18px;
+	font-weight: bold;
+	color: #999999;
+}
+.footer .footer_c .foot_last dd span{
+	color: #999999;
+	font-size: 10px;
+	font-weight: normal;
+}
+.footer .footer_c .foot_last dd img{
+	margin-top: 10px;
+}

@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+
+
+
+/*左右浮动*/
+.fl{float: left;}
+.fr{float: right;}
+
+
+.clear{
+	overflow: hidden;
+}
+.inner_c{
+	width: 996px;
+	margin: 0 auto;
+}
+
+
+/*首页内容标题*/
+.title-tag{
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+}
+.title-tag h2{
+	font-weight: normal;
+	font-size: 20px;
+	color: #2d2d2d;
+}
+
+/*top*/
+
+.top li .phone_new{
+	padding-left: 16px;
+	background: url(../img/header_phone_icon.png) no-repeat 0 4px;
+}
+.top .top-c a{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 24px;
+	color: #336699;
+}
+
+
+/*导航nav*/
+
+.nav_new{
+	width: 100%;
+	height: 50px;
+	background-color: #3d9d9a;
+}
+
+.nav_new .nav-c li{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	border-right: 1px solid #49a6a5;
+}
+.nav_new .nav-c .first .nav_link{
+	padding-right: 0px;
+}
+.nav_new .nav-c li .nav_link{
+	font-size: 16px;
+	line-height: 50px;
+	color: #a4dfe9;
+	padding-right: 20px;
+	background: url(../img/header_icon_up.png) no-repeat right 9px;
+}
+
+.nav_new .nav-c li.current{
+	background-color: #29898d;
+}
+	
+.nav_new .nav-c li:hover{
+	width: 99px;
+	height: 48px;
+	background-color: #fbfbfb;
+	border: 1px solid #c0c0c0;
+	border-bottom: 1px solid #fbfbfb;
+}
+.nav_new .nav-c li:hover .nav_link{
+	color: #0e6999;
+	background: url(../img/header_icon_down.png) no-repeat right 10px;
+	text-decoration: none;
+}
+
+.nav_new .nav-c .first{
+	background-color: #3a9d9a;
+}
+.nav_new .nav-c .first:hover{
+	background-color: #28898d;
+	width: 101px;
+	border: none;
+}
+
+.nav_new .nav-c li .subnav{
+	display: none;
+}
+
+
+.top{
+	background-color: #dadada;
+}
+.top .top-c{
+	overflow: hidden;
+	border-bottom: 1px solid #c7c7c7;
+}
+.top .top-c a:hover{
+	color: #0e6596;
+	text-decoration: underline;
+}
+
+.top .top-c ul li{
+	display: inline-block;
+}
+.top .top-c .left a.phone{
+	padding-left: 16px;
+	background-color: red;
+	background: url(../img/phone.png) no-repeat 0 11px;
+}
+.top .top-c .right a{
+	margin-right: 0px;
+	margin-left: 8px;
+}
+
+
+/*导航搜索框*/
+.nav-c input{
+	border: none;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 4px;
+	border: 1px solid #347798;
+	color: #999;
+	font-size: 12px;
+	padding: 0 22px 0 8px;
+	background: url(../img/search_icon.png) no-repeat right center #e1ebea;
+	margin: 10px 25px 0 0;
+}
+
+
+
+/*二级导航*/
+
+
+.subnav{
+	position: absolute;
+	top: 49px;
+	left: -1px;
+	z-index: 999;
+	text-align: left;
+	padding: 15px 40px 10px;
+	border: 1px solid #c0c0c0;
+	border-top: none;
+	background-color: #fbfbfb;
+}
+.subnav dl{
+	border-bottom: 1px solid #e0e0e0;
+}
+.subnav dl.last{
+	border-bottom:none;
+}
+.subnav dt{
+	padding: 8px 0 5px 0;
+}
+.subnav dt a{
+	font-size: 16px;
+	color: #0d6596;
+	line-height: 36px;
+}
+.subnav dt a:hover{
+	text-decoration: none;
+}
+.subnav dl dd{
+	padding-bottom: 10px;
+}
+.subnav dl dd,.subnav dl dd a{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 25px;
+	color: #949494;
+}
+.subnav dl dd a:hover{
+	color: #0d6596;
+}
+
+
+
+
+
+
+
+/* footer页脚*/
+
+.footer{
+	background-color: #2b2b2b;
+}
+.footer dl{
+	height: 140px;
+	width: 145px;
+	padding-left: 15px;
+	border-left: 1px solid #434343;
+}
+.footer dt{
+	font-size: 14px;
+	font-weight: bold;
+	color: #9c9c9c;
+	margin: 6px 0 16px 0;
+}
+.footer dd a{
+	line-height: 24px;
+}
+.footer .f-bot{
+	position: relative;
+	line-height: 50px;
+	color: #818181;
+}
+.footer .f-bot p{
+	margin-left: 120px; 
+}
+.footer .f-bot a{
+	position: absolute;
+	right: 230px;
+	top: 6px;
+}
+
+
+/*侧边快捷提示*/
+
+.leftTip{
+	position: fixed;
+	bottom: 40px;
+	right: 70px;
+}
+.leftTip img{
+	margin-bottom: 10px;
+}
+.leftTip a{
+	display: block;
+	width: 52px;
+	height: 52px;
+	margin: 4px auto;
+	background: url(../img/gotop.gif) no-repeat;
+}
+.leftTip .top{
+	background-position: -52px 0;
+}
+.leftTip .top:hover{
+	background-position: 0 0;
+}
+.leftTip .info{
+	background-position: -52px -52px;
+}
+.leftTip .info:hover{
+	background-position: 0 -52px;
+}
+
+
+
+
+/*发布*/
+.issue{
+	display: block;
+	height: 50px;
+	width: 100%;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	background-color: #fa7b00;
+}
+.issue:hover{
+	background-color: #fe9f00;
+	text-decoration: none;
+}
+

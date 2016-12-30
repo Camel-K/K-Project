@@ -1,0 +1,218 @@
+@charset "utf-8";
+/*color、border公共部分*/
+
+.tb_c{
+	color: #d64d1c;
+}
+.qs_c{
+	color: #036eb7;
+}
+.qx_c{
+	color: #009847;
+}
+.aq_c{
+	color: #e82100;
+}
+
+
+
+
+
+
+/*guide*/
+
+.guide{
+	width: 100%;
+	padding: 20px 0;
+	background-color: #f0f0f0;
+}
+/*guide ---- left*/
+
+.guide .g_c_l{
+	width: 204px;
+	height: 270px;
+	background-color: #fff;
+}
+.guide .g_c_l h3{
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 48px;
+	padding-left: 10px;
+}
+.guide .g_c_l li{
+	float: left;
+	width: 84px;
+	height: 96px;
+	border: 1px solid #d9d4d4;
+	border-radius: 8px;
+	margin-left: 12px;
+}
+	
+.guide .g_c_l li a{
+	display: block;
+	background-color: #f0f0f0;
+}
+.guide .g_c_l li a:hover{
+	background-color: #fff;
+	text-decoration: none;
+}
+.guide .g_c_l li div{
+	width: 84px;
+	height: 60px;
+	background: url(../img/guide_dive.png) no-repeat 0 0;
+}
+.guide .g_c_l .tobu a div{
+	background-position: 0 0;
+}
+.guide .g_c_l .qianshui a div{
+	background-position: 0 -60px;
+}
+.guide .g_c_l .qixing a div{
+	background-position: 0 -120px;
+}
+.guide .g_c_l .anquan a div{
+	background-position: 0 -180px;
+}
+.guide .g_c_l li p{
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+}
+
+
+/*guide ---- right*/
+.guide .g_c_r{
+	position: relative;
+	height: 270px;
+	width: 780px;
+	background-color: blue;
+}
+
+.guide .g_c_r ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 998;
+}
+.guide .g_c_r ul li.current{
+	opacity: 0;
+}
+.guide .g_c_r ol{
+	position: absolute;
+	bottom: 24px;
+	right: 150px;
+	z-index: 999;
+	width: 48px;
+	height: 12px;
+	overflow: hidden;
+}
+.guide .g_c_r ol li{
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #cccccc;
+	margin: 0 6px;
+}
+.guide .g_c_r ol li.current{
+	background-color: #fff;
+}
+
+
+/*主体内容*/
+.main{
+	margin-bottom: 80px;
+}
+.main .top{
+	line-height: 74px;
+	background-color: #fff;
+}
+.main .top h4{
+	font-weight: normal;
+	line-height: 32px;
+	margin: 21px 0;
+	padding-left: 18px;
+	font-size: 20px;
+}
+.tb_bl{
+	border-left: 5px solid #d64d1c;
+}
+.qs_bl{
+	border-left: 5px solid #036eb7;
+}
+.qx_bl{
+	border-left: 5px solid #009847;
+}
+.aq_bl{
+	border-left: 5px solid #e82100;
+}
+
+
+
+
+
+
+.main .top a{
+	text-decoration: none;
+	color: #666;
+}
+
+.main ul li{
+	float: left;
+	width: 196px;
+	height:315px;
+	margin-right: 70px;
+}
+.main ul .last{
+	margin-right: 0;
+}
+.main ul li div{
+	position: relative;
+	padding: 4px;
+}
+.main ul li div img{
+	width: 188px;
+	height: 266px;
+}
+.main ul li a{
+	display: block;
+	margin: 10px 0;
+	padding-left: 20px;
+	background: url(../img/guide_download.png) no-repeat 0 0;
+	color: #333;
+	font-weight: bold;
+}
+
+/*里面内容*/
+.main ul .dds{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 196px;
+	height: 277px;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+}
+
+
+.main ul .dds .span_txt{
+	display: block;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	margin: 50px 0 20px 0;
+}
+.main ul .dds .span_fdj{
+	text-align: center;
+	display: inline-block;
+	width: 56px;
+	height: 60px;
+	background: url(../img/guide_view.png) no-repeat;
+}
+.main ul .dds .span_view{
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 50px;
+	color: #397a7a;
+}

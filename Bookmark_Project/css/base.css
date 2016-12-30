@@ -1,0 +1,38 @@
+/*内边距*/
+.pl25{padding-left: 25px;}
+.pt50{padding-top: 50px;}
+.pr25{padding-right: 25px;}
+.pb50{padding-bottom: 50px;}
+/*外边距*/
+.mb5{margin-bottom: 5px;}
+.mb8{margin-bottom: 8px;}
+.mb10{margin-bottom: 10px;}
+.mb16{margin-bottom: 16px;}
+.mb25{margin-bottom: 25px;}
+.mb30{margin-bottom: 30px;}
+.mb35{margin-bottom: 35px;}
+.mb40{margin-bottom: 40px;}
+
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+
+
+.ml12{margin-left: 12px;}
+.ml25{margin-left: 25px;}
+
+
+.mr20{margin-right: 20px;}
+.mr25{margin-right: 25px;}
+.mr37{margin-right: 37px;}
+
+
+/*宽度*/
+.w160{width: 160px;}
+.w168{width: 168px;}
+.w240{width:240px;}
+.w270{width: 270px;}
+.w365{width: 365px;}
+
+
